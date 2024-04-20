@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+
+body {
+    height: 500%;
+    width: 100%;
+    background-color: darkblue;
+}
+.a-navbar{
+    z-index:100;
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: #19398A;
+    width:100%;
+    height:1.5%;
+    font-family: "Rubik", sans-serif;
+   
+}
+.a-left{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-left img{
+   height:3rem;
+}
+.a-mid{
+    display: flex;
+    width:50rem;
+    align-items: center;
+    justify-content: center;
+}
+.a-mid ul {
+    color:white;
+    display: flex;
+}
+.a-mid ul li{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    
+    margin-left: 2rem;
+    display: flex;
+}
+
+.a-mid ul li i{
+    opacity: 0.4;
+}
+.a-right{
+    width:30rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-right img{
+    height: 1.5rem;
+}
+
+
+
+.main {
+    height: 500vh;
+    width: 100%;
+
+}
+
+.a-nav {
+    height: 15vh;
+}
+
+.tata-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+    padding: 2.5vh;
+}
+
+.all-teams {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7vw;
+    height: 90vh;
+    justify-content: center;
+}
+
+.allteams .rowone {
+    display: flex;
+}
+
+.chennai-superkings {
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+ border-radius: 10px;
+    
+    background: linear-gradient(180deg, #474748, #11141C);
+
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    /* background-color:#FCCA06; */
+
+}
+
+.chennai-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCCA06;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.chennai-lower {
+    /* background:linear-gradient(180deg,#585A60,#11141C); */
+    height: 20vh;
+
+
+}
+
+.chennai-title {
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 3vh;
+    font-size: large;
+    
+
+
+    justify-content: center;
+    align-items: center;
+
+}
+.royal-bengaluru {
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+
+    
+    background:linear-gradient(90deg,rgb(146, 0, 0),#590303 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    border-radius: 10px;
+    
+
+}
+.bengaluru-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.delhi-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #a00d0d;
+    border-bottom-left-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 80%;
+
+}
+.delhi-capital{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+    
+
+    
+    background:linear-gradient(180deg,rgb(3, 1, 104),#100042 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.gujarat-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ebdea;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.gujarat-titans{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+
+   
+    background:linear-gradient(180deg,rgb(1, 30, 5),#0b0231 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.kolkata-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #dec418;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.kolkata-knight{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+    border-radius: 10px;
+   
+    background:linear-gradient(180deg,rgb(79, 3, 125),#3b013f 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.lucknow-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.lucknow-giants{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+    border-radius: 10px;
+   
+    background:linear-gradient(180deg,rgb(12, 85, 232),#062ea5 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.mumbai-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a559b;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.mumbai-indians{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+
+    border-radius: 10px;
+    background:linear-gradient(180deg,rgb(8, 54, 103),rgb(5, 36, 69));
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.punjab-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.punjab-kings{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+
+    
+    background:linear-gradient(180deg,rgb(51, 87, 160),#2b479c 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.rajasthan-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #d89dd0;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.rajasthan-royals{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 10px;
+
+    background:linear-gradient(180deg,rgb(10, 38, 93),#061952 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
+.hyderabad-upper {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e84206;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.sunrisers-hyderabad{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    
+    border-radius: 10px;
+   
+    background:linear-gradient(180deg,rgb(107, 48, 0),#671001 100%);
+    
+
+    justify-content: center;
+    height: 40vh;
+    width: 36vh;
+    
+
+}
